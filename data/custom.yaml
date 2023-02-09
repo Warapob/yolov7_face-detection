@@ -1,0 +1,12 @@
+
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: [D:\ML_playground\YOLO_playground\face_data\archive\face_data\dataset\train\images,D:\ML_playground\YOLO_playground\face_data\archive\face_data\dataset\train\labels]
+val: [D:\ML_playground\YOLO_playground\face_data\archive\face_data\dataset\validation\images,D:\ML_playground\YOLO_playground\face_data\archive\face_data\dataset\validation\labels]
+
+# number of classes
+nc: 1
+
+# class names
+names: ['face']
+
